@@ -1,93 +1,150 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
 
+    <title>Albert World</title>
 
-<title>666</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-<link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/favicon.png">
+
     <link rel="stylesheet" href="css/uikit.min.css">
     <link rel="stylesheet" href="css/uikit.gradient.min.css">
-    <!--<link rel="stylesheet" href="/css/awesome.css" />-->
     <link rel="stylesheet" href="css/aw-albert.css" />
     <link rel="stylesheet" href="css/aw-bootstrap.css" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/sha1.min.js"></script>
+
     <script src="js/uikit.min.js"></script>
-    <script src="js/sticky.min.js"></script>
-    <script src="js/vue.min.js"></script>
-    <script src="js/awesome.js"></script>
 </head>
 
-<body>
-    <div class="aw-section aw-section-color-1 aw-section-colored">
-        <div class="uk-container uk-container-center uk-text-center">
-            <p class="aw-jumbotronName aw-welcome">Welcome to Albert World</p>
-            <br>
-            <br>
-            <p class="aw-jumbotronSay aw-proverb">
-            每个程序猿上辈子一定是一个强大的魔法师！<br>
-            Every programmer must be a powerful witzard in his last life!
-            </p>
-            <p class="aw-jumbotronSay aw-proverb">
-            世界上总有某个地方可以看到阳光.<br>
-            It is always morning somewhere in the world.
-            </p>
-            <p class="aw-jumbotronSay aw-proverb">
-            第一步是最关键的一步.<br>
-            The first step is as good as half over.
-            </p>
-            <p class="aw-jumbotronSay aw-proverb">
-            不独善其身, 何以兼济天下.<br>
-            Talk is cheap, work on the code!
-            <br>
-        </div>
-    </div>
+<body class="aw-background">
+    <div class="aw-subbody">
 
-    <div class="aw-section aw-section-color-2 aw-section-colored">
-        <div class="uk-container uk-container-center uk-text-center">
-            <h1 class="uk-heading-large uk-margin-bottom-remove">师夷制夷</h1>
-            <p class="uk-text-large">学习是一个永无止境、不断探索的过程，<br class="uk-hidden-small"> 只有勇于拓宽自己的知识范围，才能够领略到自己曾经的无知。</p>
+        <nav class="aw-navbar uk-navbar uk-navbar-attached aw-header">
+            <a class="navbar-brand" href="/">&nbsp;<strong class="aw-iconlogo">Albert</strong></a>
+            <div class="uk-container uk-container-center aw-navbar-sub">
+                <a class="uk-navbar-brand uk-hidden-small" href="/"><img class="uk-margin uk-margin-remove aw-logo" src="images/albert_icon.png" width="90" height="30" title="AlbertWorld" alt="AlbertWorld"></a>
 
-            <div class="uk-grid" data-uk-grid-margin>
-
-                <div class="uk-width-medium-1-4">
-                    <div class="uk-panel">
-                        <img class="tm-image-pull" src="images/whale.png" width="200" height="140" alt="Components">
-                        <h2 class="uk-margin-top-remove">Whale</h2>
-                        <p class="uk-text-large">海纳百川容乃大<br>壁立千仞无欲刚</p>
-                    </div>
+                <ul class="uk-navbar-nav uk-hidden-small">
+                    <!--
+                    <li {% if __flag__ == 1 %} class="uk-active" {% endif %}><a href="/blog">技术日志</a></li>
+                    <li {% if __flag__ == 2 %} class="uk-active" {% endif %}><a href="/tutorial">网站教程</a></li>
+                    <li {% if __flag__ == 3 %} class="uk-active" {% endif %}><a href="/">程序源码</a></li>
+                    <li {% if __flag__ == 4 %} class="uk-active" {% endif %}><a href="/">个人成长</a></li>
+                    <li {% if __flag__ == 5 %} class="uk-active" {% endif %}><a href="/">学习历程</a></li>
+                    <li {% if __flag__ == 6 %} class="uk-active" {% endif %}><a target="_blank" href="/">成功案例</a></li>
+                    <li {% if __flag__ == 7 %} class="uk-active" {% endif %}><a target="_blank" href="/">共同进步</a></li>
+                    -->
+                    <li><a href="/blog">技术日志</a></li>
+                    <li><a href="/">网站教程</a></li>
+                    <li><a href="/">程序源码</a></li>
+                    <li><a href="/">个人成长</a></li>
+                    <li><a href="/">学习历程</a></li>
+                    <li><a target="_blank" href="/">成功案例</a></li>
+                    <li><a target="_blank" href="/">共同进步</a></li>
+                </ul>
+                <div class="uk-navbar-flip">
+                    <ul class="uk-navbar-nav">
+                    </ul>
                 </div>
+            </div>
+        </nav>
 
-                <div class="uk-width-medium-1-4">
-                    <div class="uk-panel">
-                        <img class="tm-image-pull" src="images/crab.png" width="200" height="140" alt="Themes">
-                        <h2 class="uk-margin-top-remove">Crab</h2>
-                        <p class="uk-text-large">无肠公子任横行<br>自恃双栖介甲兵</p>
-                    </div>
+        <div class="aw-center">
+            <div class="aw-section aw-section-color-1 aw-section-colored">
+                <div class="uk-container uk-container-center uk-text-center">
+                    <p class="aw-jumbotronName aw-welcome"><a href="/blog">Welcome to Albert World</a></p>
+                    <br>
+                    <br>
+                    <p class="aw-jumbotronSay aw-proverb">
+                    每个程序猿上辈子一定是一个强大的魔法师！<br>
+                    Every programmer must be a powerful witzard in his last life!
+                    </p>
+                    <p class="aw-jumbotronSay aw-proverb">
+                    世界上总有某个地方可以看到阳光.<br>
+                    It is always morning somewhere in the world.
+                    </p>
+                    <p class="aw-jumbotronSay aw-proverb">
+                    第一步是最关键的一步.<br>
+                    The first step is as good as half over.
+                    </p>
+                    <p class="aw-jumbotronSay aw-proverb">
+                    不独善其身, 何以兼济天下.<br>
+                    Talk is cheap, work on the code!
+                    <br>
                 </div>
-
-                <div class="uk-width-medium-1-4">
-                    <div class="uk-panel">
-                        <img class="tm-image-pull" src="images/dolphin.png" width="200" height="140" alt="Responsive">
-                        <h2 class="uk-margin-top-remove">Dolphin</h2>
-                        <p class="uk-text-large">雪中送炭三九暖<br>助人为乐众称羡</p>
-                    </div>
-                </div>
-
-                <div class="uk-width-medium-1-4">
-                    <div class="uk-panel">
-                        <img class="tm-image-pull" src="images/octopus.png" width="200" height="140" alt="LESS">
-                        <h2 class="uk-margin-top-remove">Octopus</h2>
-                        <p class="uk-text-large">勤者艺多不压身<br>愚人功到自然成</p>
-                    </div>
-                </div>
-
             </div>
 
+            <div class="aw-section aw-section-color-2 aw-section-colored">
+                <div class="uk-container uk-container-center uk-text-center">
+                    <h1 class="uk-heading-large uk-margin-bottom-remove">师夷制夷</h1>
+                    <p class="uk-text-large">学习是一个永无止境、不断探索的过程，<br class="uk-hidden-small"> 只有勇于拓宽自己的知识范围，才能够领略到自己曾经的无知。</p>
+
+                    <div class="uk-grid" data-uk-grid-margin>
+
+                        <div class="uk-width-medium-1-4">
+                            <div class="uk-panel">
+                                <img class="tm-image-pull" src="images/whale.png" width="200" height="140" alt="Components">
+                                <h2 class="uk-margin-top-remove">Whale</h2>
+                                <p class="uk-text-large">海纳百川容乃大<br>壁立千仞无欲刚</p>
+                            </div>
+                        </div>
+
+                        <div class="uk-width-medium-1-4">
+                            <div class="uk-panel">
+                                <img class="tm-image-pull" src="images/crab.png" width="200" height="140" alt="Themes">
+                                <h2 class="uk-margin-top-remove">Crab</h2>
+                                <p class="uk-text-large">无肠公子任横行<br>自恃双栖介甲兵</p>
+                            </div>
+                        </div>
+
+                        <div class="uk-width-medium-1-4">
+                            <div class="uk-panel">
+                                <img class="tm-image-pull" src="images/dolphin.png" width="200" height="140" alt="Responsive">
+                                <h2 class="uk-margin-top-remove">Dolphin</h2>
+                                <p class="uk-text-large">雪中送炭三九暖<br>助人为乐众称羡</p>
+                            </div>
+                        </div>
+
+                        <div class="uk-width-medium-1-4">
+                            <div class="uk-panel">
+                                <img class="tm-image-pull" src="images/octopus.png" width="200" height="140" alt="LESS">
+                                <h2 class="uk-margin-top-remove">Octopus</h2>
+                                <p class="uk-text-large">勤者艺多不压身<br>愚人功到自然成</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div><!--<div class="aw-center">-->
+
+        <div class="aw-footer-down">
+            <div class="uk-container uk-container-center uk-text-center">
+                <div class="uk-panel uk-margin-top uk-margin-bottom">
+                    <br>
+                    <p>
+                        <a target="_blank" href="#"><i class="uk-icon-weibo uk-icon-medium aw-text-color"></i></a>&nbsp;&nbsp;
+                        <a target="_blank" href="https://github.com/AlbertGithubHome"><i class="uk-icon-github uk-icon-medium aw-text-color"></i></a>&nbsp;&nbsp;
+                        <a target="_blank" href="#"><i class="uk-icon-linkedin-square uk-icon-medium aw-text-color"></i></a>&nbsp;&nbsp;
+                        <a target="_blank" href="#"><i class="uk-icon-twitter uk-icon-medium aw-text-color" ></i></a>&nbsp;&nbsp;
+                        <a target="_blank" href="#"><i class="uk-icon-hover uk-icon-subway uk-icon-medium aw-text-color"></i></a>
+                    </p>
+
+                    <ul class="uk-subnav uk-subnav-line uk-flex-center">
+                        <li><a href="https://github.com/AlbertGithubHome">GitHub</a></li>
+                        <li><a href="https://github.com/AlbertGithubHome/AlbertGithubHome.github.io/issues">Issues</a></li>
+                        <li><a href="https://github.com/AlbertGithubHome/AlbertGithubHome.github.io">Changelog</a></li>
+                        <li><a href="https://github.com/AlbertGithubHome/AlbertGithubHome.github.io">Twitter</a></li>
+                    </ul>
+                    
+                    <div class="uk-panel">
+                        <p>Made by <a href="https://github.com/AlbertGithubHome" class="uk-link aw-text-color">Albert</a> with love and insistence. Copyright &copy; 2017.<br><a href="#" target="_blank">www.albertgithubhome.github.io</a>. All rights reserved.</p>
+                        <p>Licensed under <a href="https://github.com/AlbertGithubHome/AlbertGithubHome.github.io/blob/master/LICENSE" class="aw-text-color">GPL license</a>.</p>
+                        <a href="/"><img src="images/aw_icon.png" width="90" height="30" title="AlbertWorld" alt="AlbertWorld"></a>
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 </body>
 </html>
