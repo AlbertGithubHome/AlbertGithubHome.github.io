@@ -87,18 +87,18 @@ body {
  * Blocks
  */
 
-.aw-section { padding: 50px 0; }
+.aw-section { padding: 25px 0; }
 
 /* Tablet and bigger */
 @media (min-width: 768px) {
 
-    .aw-section { padding: 90px 0; }
+    .aw-section { padding: 45px 0; }
 }
 
 /* Large screen and bigger */
 @media (min-width: 1220px) {
 
-    .aw-section { padding: 120px 0; }
+    .aw-section { padding: 60px 0; }
 }
 
 /*
