@@ -92,7 +92,7 @@ body {
 /* Tablet and bigger */
 @media (min-width: 768px) {
 
-    .aw-section { padding: 150px 0; }
+    .aw-section { padding: 60px 0; }
 }
 
 /* Large screen and bigger */
