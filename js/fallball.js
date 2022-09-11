@@ -33,7 +33,7 @@ function main () {
 	
 
 	createGround();
-	createBomb();
+	createFallingObjets();
 	createDebugDraw();
 	setInterval(update, 1000 / 60);
 }
@@ -115,7 +115,7 @@ function createGround () {
 
 
 
-function createBomb () {
+function createFallingObjets () {
 	for (var i = 0; i < 8; i++)
 	{
 		fixDef.shape = new b2CircleShape(0.2+Math.random()/2);
